@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+
+    padding: 0;
+   
+}
+body
+
+#row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ background-image: url(/back.jpg);
+  padding-top: 20px;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+    font-size: large;
+    font-weight: 600;
+    font-family: sans-serif;
+
+  
+}
+a:hover{
+    color: red;
+}
+#container{
+    background-image: url(/dsczv.jpg);
+    display: flex;
+    justify-content: space-around;
+}
+#ktiba{
+    margin-top: 250px;
+    margin-left: 300px;
+    font-size: xx-large;
+}
+#ktiba p{
+    margin-top: 20px;
+    font-size: large;
+    font-family: 'sans serif';
+}
+#ktiba i{
+    font-size: large;
+    padding-right:10px ;
+}
+#ktiba button{
+    margin: 20px;
+    padding:30px;
+    background-color: #e71720 ;
+    border: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+#ktiba button:hover{
+    background-color: orangered;
+    color: white;
+
+}
+#container2{
+    padding-left: 50px;
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-gap: 25px;
+}
+#y {
+    background-color: #e71720;
+    height: 70px;
+    width: 290px;
+    padding: 50px;
+
+   
+}
+#o{
+    background-image: url(/dsczv.jpg);
+  padding-top: 35px;
+}
+#container2 p{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+
+
+}
+#y i{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    padding-top: 10px;
+    padding-left: 140px;
+}
+.we{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.cnt{
+    padding-top: 150px;
+ margin-left: -580px;
+}
+.cnt h1{
+    font-size: 3rem;
+  font-family: cursive;
+  
+}
+
+.cnt p{
+    padding-top: 30px;
+   font-size:large;
+   
+}
+.cnt button{
+    margin: 20px;
+    padding:25px;
+   margin-top: 60px;
+margin-left: 120px;
+    background-color: #e71720 ;
+    border: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.cnt button:hover{
+    background-color: black;
+    color:#e71720;
+}
+#in{
+    background-image: url(/min.jpg);
+    background-repeat: no-repeat;
+    height: 1050px;
+    width: 1550px;
+}
+#kti{
+    text-align: center;
+    color: white;
+    padding-top: 520px;
+    margin-left: -780px;
+
+}
+#in h1{
+    font-size: 4rem;
+    font-family: cursive;
+    
+}
+#in p{
+    padding-top: 30px;
+    font-size: large;
+    font-family:sans-serif;
+}
+input{
+    height: 40px;
+    width: 420px;
+    margin-top: 30px;
+    padding: 5px;
+}
+#in button{
+    margin: 20px;
+    padding:20px;
+   margin-top: 60px;
+margin-left:-2px;
+    background-color: #e71720 ;
+    border: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+#why{
+ padding-top:50px;
+}
+#hi{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+#first{
+    background-color:#e71720;
+padding-top: 50px;
+padding-left: 30px;
+color: white;
+margin: 20px;
+height:480px;
+width: 350px;
+}
+div p,h1{
+    padding-top: 40px;
+    font-size:x-large;
+
+}
+#second{
+    background-color:rgb(101, 99, 99);
+padding-top: 50px;
+padding-left: 30px;
+color: white;
+margin: 20px;
+height:480px;
+width: 350px;
+}
+#third{
+    background-color:#292d33;;
+padding-top: 50px;
+padding-left: 30px;
+color: white;
+margin: 20px;
+height:500px;
+width: 350px;
+}
+#why a:hover{
+    color: black;
+}
